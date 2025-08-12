@@ -1,3 +1,7 @@
+import cv2 as cv
+import numpy as np
+import matplotlib.pyplot as plt
+
 #import brain image
 brain = cv.imread('/brain_proton_density_slice.png', cv.IMREAD_GRAYSCALE)
 assert brain is not None
