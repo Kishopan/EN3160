@@ -1,3 +1,7 @@
+import cv2 as cv
+import numpy as np
+import matplotlib.pyplot as plt
+
 # import image
 im_bgr = cv.imread('/highlights_and_shadows.jpg')
 assert im_bgr is not None
